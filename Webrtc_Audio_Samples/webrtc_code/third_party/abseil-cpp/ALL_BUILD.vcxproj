@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{38781DBE-A585-3E7D-B415-741FC1CBD713}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/open/webrtc/test_audio/Webrtc_Audio_Samples/Webrtc_Audio_Samples/Webrtc_Audio_Samples/webrtc_code/third_party/abseil-cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/open/webrtc/test_audio/Webrtc_Audio_Samples/Webrtc_Audio_Samples/Webrtc_Audio_Samples/webrtc_code/third_party/abseil-cpp -BD:/open/webrtc/test_audio/Webrtc_Audio_Samples/Webrtc_Audio_Samples/Webrtc_Audio_Samples/webrtc_code/third_party/abseil-cpp --check-stamp-file D:/open/webrtc/test_audio/Webrtc_Audio_Samples/Webrtc_Audio_Samples/Webrtc_Audio_Samples/webrtc_code/third_party/abseil-cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\GNUInstallDirs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\WriteBasicConfigVersionFile.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMake\AbseilHelpers.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMake\AbseilInstallDirs.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMake\abslConfig.cmake.in;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMakeFiles\3.18.1\CMakeCCompiler.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMakeFiles\3.18.1\CMakeCXXCompiler.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMakeFiles\3.18.1\CMakeRCCompiler.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMakeFiles\3.18.1\CMakeSystem.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\copts\AbseilConfigureCopts.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\copts\GENERATED_AbseilCopts.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/open/webrtc/test_audio/Webrtc_Audio_Samples/Webrtc_Audio_Samples/Webrtc_Audio_Samples/webrtc_code/third_party/abseil-cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/open/webrtc/test_audio/Webrtc_Audio_Samples/Webrtc_Audio_Samples/Webrtc_Audio_Samples/webrtc_code/third_party/abseil-cpp -BD:/open/webrtc/test_audio/Webrtc_Audio_Samples/Webrtc_Audio_Samples/Webrtc_Audio_Samples/webrtc_code/third_party/abseil-cpp --check-stamp-file D:/open/webrtc/test_audio/Webrtc_Audio_Samples/Webrtc_Audio_Samples/Webrtc_Audio_Samples/webrtc_code/third_party/abseil-cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\GNUInstallDirs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\WriteBasicConfigVersionFile.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMake\AbseilHelpers.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMake\AbseilInstallDirs.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMake\abslConfig.cmake.in;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMakeFiles\3.18.1\CMakeCCompiler.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMakeFiles\3.18.1\CMakeCXXCompiler.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMakeFiles\3.18.1\CMakeRCCompiler.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMakeFiles\3.18.1\CMakeSystem.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\copts\AbseilConfigureCopts.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\copts\GENERATED_AbseilCopts.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/open/webrtc/test_audio/Webrtc_Audio_Samples/Webrtc_Audio_Samples/Webrtc_Audio_Samples/webrtc_code/third_party/abseil-cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/open/webrtc/test_audio/Webrtc_Audio_Samples/Webrtc_Audio_Samples/Webrtc_Audio_Samples/webrtc_code/third_party/abseil-cpp -BD:/open/webrtc/test_audio/Webrtc_Audio_Samples/Webrtc_Audio_Samples/Webrtc_Audio_Samples/webrtc_code/third_party/abseil-cpp --check-stamp-file D:/open/webrtc/test_audio/Webrtc_Audio_Samples/Webrtc_Audio_Samples/Webrtc_Audio_Samples/webrtc_code/third_party/abseil-cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\GNUInstallDirs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\WriteBasicConfigVersionFile.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMake\AbseilHelpers.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMake\AbseilInstallDirs.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMake\abslConfig.cmake.in;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMakeFiles\3.18.1\CMakeCCompiler.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMakeFiles\3.18.1\CMakeCXXCompiler.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMakeFiles\3.18.1\CMakeRCCompiler.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMakeFiles\3.18.1\CMakeSystem.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\copts\AbseilConfigureCopts.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\copts\GENERATED_AbseilCopts.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/open/webrtc/test_audio/Webrtc_Audio_Samples/Webrtc_Audio_Samples/Webrtc_Audio_Samples/webrtc_code/third_party/abseil-cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/open/webrtc/test_audio/Webrtc_Audio_Samples/Webrtc_Audio_Samples/Webrtc_Audio_Samples/webrtc_code/third_party/abseil-cpp -BD:/open/webrtc/test_audio/Webrtc_Audio_Samples/Webrtc_Audio_Samples/Webrtc_Audio_Samples/webrtc_code/third_party/abseil-cpp --check-stamp-file D:/open/webrtc/test_audio/Webrtc_Audio_Samples/Webrtc_Audio_Samples/Webrtc_Audio_Samples/webrtc_code/third_party/abseil-cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\GNUInstallDirs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\WriteBasicConfigVersionFile.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMake\AbseilHelpers.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMake\AbseilInstallDirs.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMake\abslConfig.cmake.in;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMakeFiles\3.18.1\CMakeCCompiler.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMakeFiles\3.18.1\CMakeCXXCompiler.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMakeFiles\3.18.1\CMakeRCCompiler.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMakeFiles\3.18.1\CMakeSystem.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\copts\AbseilConfigureCopts.cmake;D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\copts\GENERATED_AbseilCopts.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\ZERO_CHECK.vcxproj">
+      <Project>{963A35BC-6D48-34FD-B123-D7B48B52206C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\types\bad_any_cast_impl.vcxproj">
+      <Project>{2A9D0456-8927-3BFE-B40F-E01D6639470B}</Project>
+      <Name>bad_any_cast_impl</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\types\bad_optional_access.vcxproj">
+      <Project>{40CD09BD-0B46-3511-82C2-1BD540608DBC}</Project>
+      <Name>bad_optional_access</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\types\bad_variant_access.vcxproj">
+      <Project>{B84C5153-5063-3667-ADBF-4F76E342ABBF}</Project>
+      <Name>bad_variant_access</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\base\base.vcxproj">
+      <Project>{6D23D90D-FAB9-346D-8E90-54B5D5DE0EB7}</Project>
+      <Name>base</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\hash\city.vcxproj">
+      <Project>{4508A24E-2C34-36F1-A5E8-109F8B1FD40E}</Project>
+      <Name>city</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\time\civil_time.vcxproj">
+      <Project>{5037EBAC-9AB0-34C7-A19B-51BF4D291967}</Project>
+      <Name>civil_time</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\debugging\debugging_internal.vcxproj">
+      <Project>{B424ABBF-F6B3-38B7-913E-E8AB12EA9AEE}</Project>
+      <Name>debugging_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\debugging\demangle_internal.vcxproj">
+      <Project>{CA5637D1-2F6C-3CAA-B935-375187D6296F}</Project>
+      <Name>demangle_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\base\dynamic_annotations.vcxproj">
+      <Project>{5D0FB877-A3D5-3D71-BADC-D6359AD4953E}</Project>
+      <Name>dynamic_annotations</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\debugging\examine_stack.vcxproj">
+      <Project>{51A6B3C1-0392-3EC9-9D6E-E79B5293B054}</Project>
+      <Name>examine_stack</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\debugging\failure_signal_handler.vcxproj">
+      <Project>{E4DA614F-A359-3F4E-8635-2896F430B99E}</Project>
+      <Name>failure_signal_handler</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\flags\flags.vcxproj">
+      <Project>{62E4B4AE-1B3F-3CC2-8607-38325B807EAB}</Project>
+      <Name>flags</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\flags\flags_config.vcxproj">
+      <Project>{615E1961-FAE4-30A4-88C8-40171C13A25E}</Project>
+      <Name>flags_config</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\flags\flags_handle.vcxproj">
+      <Project>{2A5B3030-3F9C-3132-A2A3-C99BF06BACD4}</Project>
+      <Name>flags_handle</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\flags\flags_internal.vcxproj">
+      <Project>{5E474ED4-8F99-342D-94E7-BC8DBCD0D415}</Project>
+      <Name>flags_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\flags\flags_marshalling.vcxproj">
+      <Project>{B7446788-6F1E-3E46-B374-85CD95BAE42D}</Project>
+      <Name>flags_marshalling</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\flags\flags_parse.vcxproj">
+      <Project>{4F178839-C49D-32EE-9977-87DA7B43F505}</Project>
+      <Name>flags_parse</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\flags\flags_registry.vcxproj">
+      <Project>{304C320D-B472-31EE-9988-34D7DAE43F54}</Project>
+      <Name>flags_registry</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\flags\flags_usage.vcxproj">
+      <Project>{3A4A96AB-3A23-348E-B37C-18172CDD876B}</Project>
+      <Name>flags_usage</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\synchronization\graphcycles_internal.vcxproj">
+      <Project>{1B9E86E8-08E6-3B48-B74B-C98B004B5A1E}</Project>
+      <Name>graphcycles_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\hash\hash.vcxproj">
+      <Project>{1D6D1B6F-19EC-3764-8BA1-934D81287F43}</Project>
+      <Name>hash</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\container\hashtablez_sampler.vcxproj">
+      <Project>{2D3ED500-1311-382B-A5D1-BEAF706EDABD}</Project>
+      <Name>hashtablez_sampler</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\numeric\int128.vcxproj">
+      <Project>{01CD15B1-5A9E-3656-ADC8-5594907A4BEC}</Project>
+      <Name>int128</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\debugging\leak_check.vcxproj">
+      <Project>{8EB85E0C-B705-382C-A1F9-C1616266886C}</Project>
+      <Name>leak_check</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\debugging\leak_check_disable.vcxproj">
+      <Project>{B5F9F051-F0A6-3F3D-B87B-A91DC50DD43F}</Project>
+      <Name>leak_check_disable</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\base\malloc_internal.vcxproj">
+      <Project>{322D17C8-5925-30C8-95FA-EF3F62461577}</Project>
+      <Name>malloc_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\container\raw_hash_set.vcxproj">
+      <Project>{69418B84-234D-3B76-BD43-305F7054F001}</Project>
+      <Name>raw_hash_set</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\base\scoped_set_env.vcxproj">
+      <Project>{641846DC-B5F2-3E65-B2F7-B5D2EA1DA160}</Project>
+      <Name>scoped_set_env</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\base\spinlock_wait.vcxproj">
+      <Project>{2999B9C2-FD43-3BC9-9884-9BF2501F062C}</Project>
+      <Name>spinlock_wait</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\debugging\stacktrace.vcxproj">
+      <Project>{26FCC7A3-2E35-387D-AAC6-58E75D22B14C}</Project>
+      <Name>stacktrace</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\strings\str_format_internal.vcxproj">
+      <Project>{AAE0A0FF-9BC3-3F70-85A1-E48AE3E3DEF4}</Project>
+      <Name>str_format_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\strings\strings.vcxproj">
+      <Project>{DB895A04-ADB2-3981-83A4-5FA484A75F7E}</Project>
+      <Name>strings</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\strings\strings_internal.vcxproj">
+      <Project>{448AC957-D876-378C-8857-B7B3FA85A08E}</Project>
+      <Name>strings_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\debugging\symbolize.vcxproj">
+      <Project>{60E92AC9-46B3-3D7F-8789-0EA4BFFE780E}</Project>
+      <Name>symbolize</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\synchronization\synchronization.vcxproj">
+      <Project>{0791B952-637E-38B9-AAE1-6E4484A4B999}</Project>
+      <Name>synchronization</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\base\throw_delegate.vcxproj">
+      <Project>{D91F2E94-A563-3C62-BDE1-DD834CE6F749}</Project>
+      <Name>throw_delegate</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\time\time.vcxproj">
+      <Project>{D2BCEDF6-A7FF-3312-B92C-3E91CFCF78A4}</Project>
+      <Name>time</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\time\time_zone.vcxproj">
+      <Project>{D305D0B5-4BA4-3CC7-A830-A08B074FAF31}</Project>
+      <Name>time_zone</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

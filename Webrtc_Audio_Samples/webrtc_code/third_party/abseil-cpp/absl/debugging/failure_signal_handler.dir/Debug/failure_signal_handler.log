@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/open/webrtc/test_audio/Webrtc_Audio_Samples/Webrtc_Audio_Samples/Webrtc_Audio_Samples/webrtc_code/third_party/abseil-cpp/absl/debugging/CMakeLists.txt
+  failure_signal_handler.cc
+  failure_signal_handler.vcxproj -> D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\debugging\Debug\absl_failure_signal_handler.lib

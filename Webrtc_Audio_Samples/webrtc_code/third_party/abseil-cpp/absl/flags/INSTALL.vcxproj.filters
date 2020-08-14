@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\CMakeFiles\1424cdec5bece1462f8aa91b6ab72b6b\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4677E8F9-AF2E-3C60-9DE5-E43CB53E991E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

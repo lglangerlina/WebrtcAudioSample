@@ -1,0 +1,10 @@
+﻿  Building Custom Rule D:/open/webrtc/test_audio/Webrtc_Audio_Samples/Webrtc_Audio_Samples/Webrtc_Audio_Samples/webrtc_code/third_party/abseil-cpp/absl/base/CMakeLists.txt
+  cycleclock.cc
+  raw_logging.cc
+  spinlock.cc
+  sysinfo.cc
+  thread_identity.cc
+  unscaledcycleclock.cc
+  log_severity.cc
+  正在生成代码...
+  base.vcxproj -> D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\base\Debug\absl_base.lib

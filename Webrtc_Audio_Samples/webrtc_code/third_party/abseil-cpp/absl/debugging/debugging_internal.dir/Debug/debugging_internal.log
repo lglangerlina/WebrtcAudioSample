@@ -1,0 +1,6 @@
+﻿  Building Custom Rule D:/open/webrtc/test_audio/Webrtc_Audio_Samples/Webrtc_Audio_Samples/Webrtc_Audio_Samples/webrtc_code/third_party/abseil-cpp/absl/debugging/CMakeLists.txt
+  address_is_readable.cc
+  elf_mem_image.cc
+  vdso_support.cc
+  正在生成代码...
+  debugging_internal.vcxproj -> D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\debugging\Debug\absl_debugging_internal.lib

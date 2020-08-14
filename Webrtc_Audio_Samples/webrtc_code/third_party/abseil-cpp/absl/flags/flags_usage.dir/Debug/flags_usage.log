@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/open/webrtc/test_audio/Webrtc_Audio_Samples/Webrtc_Audio_Samples/Webrtc_Audio_Samples/webrtc_code/third_party/abseil-cpp/absl/flags/CMakeLists.txt
+  usage.cc
+D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\flags\internal\usage.cc(123): warning C4018: “>=”: 有符号/无符号不匹配
+  flags_usage.vcxproj -> D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\flags\Debug\absl_flags_usage.lib

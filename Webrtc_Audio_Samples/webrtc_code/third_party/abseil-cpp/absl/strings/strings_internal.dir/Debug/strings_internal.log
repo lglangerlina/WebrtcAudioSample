@@ -1,0 +1,5 @@
+﻿  Building Custom Rule D:/open/webrtc/test_audio/Webrtc_Audio_Samples/Webrtc_Audio_Samples/Webrtc_Audio_Samples/webrtc_code/third_party/abseil-cpp/absl/strings/CMakeLists.txt
+  ostringstream.cc
+  utf8.cc
+  正在生成代码...
+  strings_internal.vcxproj -> D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\strings\Debug\absl_strings_internal.lib

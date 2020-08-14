@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/open/webrtc/test_audio/Webrtc_Audio_Samples/Webrtc_Audio_Samples/Webrtc_Audio_Samples/webrtc_code/third_party/abseil-cpp/absl/types/CMakeLists.txt
+cl : 命令行 warning D9025: 正在重写“/D_HAS_EXCEPTIONS=1”(用“/U_HAS_EXCEPTIONS”)
+  bad_variant_access.cc
+  bad_variant_access.vcxproj -> D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\types\Debug\absl_bad_variant_access.lib

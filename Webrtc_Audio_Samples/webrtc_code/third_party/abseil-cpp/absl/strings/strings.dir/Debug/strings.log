@@ -1,0 +1,22 @@
+﻿  Building Custom Rule D:/open/webrtc/test_audio/Webrtc_Audio_Samples/Webrtc_Audio_Samples/Webrtc_Audio_Samples/webrtc_code/third_party/abseil-cpp/absl/strings/CMakeLists.txt
+  ascii.cc
+  charconv.cc
+  escaping.cc
+  charconv_bigint.cc
+  charconv_parse.cc
+D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\strings\internal\charconv_parse.cc(372): warning C4018: “>=”: 有符号/无符号不匹配
+  D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\strings\internal\charconv_parse.cc(491): note: 参见对正在编译的函数 模板 实例化“absl::strings_internal::ParsedFloat absl::strings_internal::ParseFloat<10>(const char *,const char *,absl::chars_format)”的引用
+D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\strings\internal\charconv_parse.cc(375): warning C4018: “>”: 有符号/无符号不匹配
+D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\strings\internal\charconv_parse.cc(395): warning C4018: “>=”: 有符号/无符号不匹配
+D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\strings\internal\charconv_parse.cc(409): warning C4018: “>=”: 有符号/无符号不匹配
+D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\strings\internal\charconv_parse.cc(412): warning C4018: “>”: 有符号/无符号不匹配
+  memutil.cc
+  match.cc
+  numbers.cc
+  str_cat.cc
+  str_replace.cc
+  str_split.cc
+  string_view.cc
+  substitute.cc
+  正在生成代码...
+  strings.vcxproj -> D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\strings\Debug\absl_strings.lib

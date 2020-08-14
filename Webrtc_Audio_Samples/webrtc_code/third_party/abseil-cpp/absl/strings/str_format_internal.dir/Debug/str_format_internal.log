@@ -1,0 +1,10 @@
+﻿  Building Custom Rule D:/open/webrtc/test_audio/Webrtc_Audio_Samples/Webrtc_Audio_Samples/Webrtc_Audio_Samples/webrtc_code/third_party/abseil-cpp/absl/strings/CMakeLists.txt
+  arg.cc
+  bind.cc
+D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\strings\internal\str_format\bind.cc(210): warning C4018: “>”: 有符号/无符号不匹配
+  extension.cc
+  float_conversion.cc
+  output.cc
+  parser.cc
+  正在生成代码...
+  str_format_internal.vcxproj -> D:\open\webrtc\test_audio\Webrtc_Audio_Samples\Webrtc_Audio_Samples\Webrtc_Audio_Samples\webrtc_code\third_party\abseil-cpp\absl\strings\Debug\absl_str_format_internal.lib

@@ -1,0 +1,854 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\webrtc_code">
+      <UniqueIdentifier>{65bfa9be-6dbc-4688-89a9-26eac3316691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\webrtc_code\rtc_base">
+      <UniqueIdentifier>{9666ba23-93e8-4dec-b187-056922602b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\webrtc_code\api">
+      <UniqueIdentifier>{b84bff35-36f4-4e20-b94e-78ae578e908d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\webrtc_code\system_warp">
+      <UniqueIdentifier>{c58f03b7-8b3e-4636-8094-f5ac0fc85cb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\webrtc_code\modules">
+      <UniqueIdentifier>{5c40ea26-2da7-4554-b610-1b7c0c3ec21c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\webrtc_code\modules\audio_processing">
+      <UniqueIdentifier>{6e3a0156-e522-461c-b9bf-0c8ddd30844a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\webrtc_code\modules\audio_processing\aec3">
+      <UniqueIdentifier>{b3e66b10-af7c-476d-8136-89c900d57ecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\webrtc_code\modules\audio_processing\logging">
+      <UniqueIdentifier>{2db9e23f-a39c-49cd-99e7-fefab1a1f310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\webrtc_code\third_party">
+      <UniqueIdentifier>{dd61af03-ae71-422d-9339-2e065814a098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\webrtc_code\api\audio">
+      <UniqueIdentifier>{93beb2cd-7782-4b19-ab8e-ea33ba2c9a2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\webrtc_code\rtc_base\strings">
+      <UniqueIdentifier>{2fe2cc0e-a5b9-4772-915c-16f4c928fe67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\webrtc_code\third_party\jsoncpp">
+      <UniqueIdentifier>{68e95cf2-bb9e-45aa-9008-71acc8c003f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\webrtc_code\modules\audio_processing\include">
+      <UniqueIdentifier>{677c1a6f-0b0c-4626-a7c3-33453f84c4dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\webrtc_code\common_audio">
+      <UniqueIdentifier>{bc3ed64d-4535-4767-9965-5298d9747384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\webrtc_code\common_audio\resampler">
+      <UniqueIdentifier>{bfb72873-378e-44da-9ee9-133a264401db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\webrtc_code\rtc_base\memory">
+      <UniqueIdentifier>{329539f2-9e47-4b05-b3c8-06925d4e0e9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\webrtc_code\modules\audio_processing\utility">
+      <UniqueIdentifier>{b5608f5e-da43-4971-b1b9-8fd24d9f69c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\webrtc_code\common_audio\signal_processing">
+      <UniqueIdentifier>{e983a08b-f3b7-4d8a-ab32-ffc9fa828f72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\echo_canceller3.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\rtc_base\checks.cc">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\api\audio\echo_canceller3_config.cc">
+      <Filter>源文件\webrtc_code\api</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\api_call_jitter_metrics.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\system_wrappers\source\cpu_features.cc">
+      <Filter>源文件\webrtc_code\system_warp</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\system_wrappers\source\field_trial.cc">
+      <Filter>源文件\webrtc_code\system_warp</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\block_delay_buffer.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\block_framer.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\logging\apm_data_dumper.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\block_processor.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\block_processor_metrics.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\cascaded_biquad_filter.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\clockdrift_detector.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\comfort_noise_generator.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\decimator.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\downsampled_render_buffer.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\echo_audibility.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\echo_path_delay_estimator.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\echo_path_variability.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\echo_remover.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\echo_remover_metrics.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\erl_estimator.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\erle_estimator.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\fft_buffer.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\filter_analyzer.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\frame_blocker.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\fullband_erle_estimator.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\main_filter_update_gain.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\matched_filter.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\matched_filter_lag_aggregator.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\matrix_buffer.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\moving_average.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\render_buffer.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\render_delay_buffer.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\render_delay_controller.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\render_delay_controller_metrics.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\render_reverb_model.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\render_signal_analyzer.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\residual_echo_estimator.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\reverb_decay_estimator.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\reverb_frequency_response.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\reverb_model.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\reverb_model_estimator.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\reverb_model_fallback.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\shadow_filter_update_gain.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\signal_dependent_erle_estimator.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\stationarity_estimator.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\subband_erle_estimator.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\subtractor.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\subtractor_output.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\subtractor_output_analyzer.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\suppression_filter.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\suppression_gain.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\vector_buffer.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\rtc_base\logging.cc">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\rtc_base\race_checker.cc">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\rtc_base\buffer_queue.cc">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\rtc_base\copy_on_write_buffer.cc">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\rtc_base\cpu_time.cc">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\rtc_base\crc32.cc">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\rtc_base\critical_section.cc">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\rtc_base\crypt_string.cc">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\rtc_base\flags.cc">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\rtc_base\location.cc">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\rtc_base\memory_usage.cc">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\rtc_base\platform_file.cc">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\rtc_base\platform_thread_types.cc">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\rtc_base\random.cc">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\rtc_base\rate_statistics.cc">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\rtc_base\rate_tracker.cc">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\rtc_base\string_encode.cc">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\rtc_base\string_to_number.cc">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\rtc_base\string_utils.cc">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\rtc_base\time_utils.cc">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\rtc_base\timestamp_aligner.cc">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\adaptive_fir_filter.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\aec_state.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\aec3_common.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\aec3\aec3_fft.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\utility\block_mean_calculator.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\utility\delay_estimator.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\utility\delay_estimator_wrapper.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\utility\ooura_fft.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\utility\ooura_fft_mips.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\utility\ooura_fft_sse2.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\api\audio\audio_frame.cc">
+      <Filter>源文件\webrtc_code\api\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\api\audio\echo_canceller3_config_json.cc">
+      <Filter>源文件\webrtc_code\api\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\api\audio\echo_canceller3_factory.cc">
+      <Filter>源文件\webrtc_code\api\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\rtc_base\strings\audio_format_to_string.cc">
+      <Filter>源文件\webrtc_code\rtc_base\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\rtc_base\strings\json.cc">
+      <Filter>源文件\webrtc_code\rtc_base\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\rtc_base\strings\string_builder.cc">
+      <Filter>源文件\webrtc_code\rtc_base\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\third_party\jsoncpp\source\src\lib_json\json_reader.cpp">
+      <Filter>源文件\webrtc_code\third_party\jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\third_party\jsoncpp\source\src\lib_json\json_value.cpp">
+      <Filter>源文件\webrtc_code\third_party\jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\third_party\jsoncpp\source\src\lib_json\json_writer.cpp">
+      <Filter>源文件\webrtc_code\third_party\jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\common_audio\audio_converter.cc">
+      <Filter>源文件\webrtc_code\common_audio</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\common_audio\audio_util.cc">
+      <Filter>源文件\webrtc_code\common_audio</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\common_audio\channel_buffer.cc">
+      <Filter>源文件\webrtc_code\common_audio</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\common_audio\resampler\push_resampler.cc">
+      <Filter>源文件\webrtc_code\common_audio\resampler</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\common_audio\resampler\push_sinc_resampler.cc">
+      <Filter>源文件\webrtc_code\common_audio\resampler</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\common_audio\resampler\sinc_resampler.cc">
+      <Filter>源文件\webrtc_code\common_audio\resampler</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\rtc_base\memory\aligned_malloc.cc">
+      <Filter>源文件\webrtc_code\rtc_base\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\common_audio\resampler\sinc_resampler_sse.cc">
+      <Filter>源文件\webrtc_code\common_audio\resampler</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\common_audio\resampler\sinusoidal_linear_chirp_source.cc">
+      <Filter>源文件\webrtc_code\common_audio\resampler</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\splitting_filter.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\three_band_filter_bank.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\common_audio\signal_processing\splitting_filter.c">
+      <Filter>源文件\webrtc_code\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\common_audio\sparse_fir_filter.cc">
+      <Filter>源文件\webrtc_code\common_audio</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\system_wrappers\source\metrics.cc">
+      <Filter>源文件\webrtc_code\system_warp</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\rtc_base\zero_memory.cc">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="AEC3_Sample.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc_code\modules\audio_processing\audio_buffer.cc">
+      <Filter>源文件\webrtc_code\modules\audio_processing</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\echo_canceller3.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\checks.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\api\audio\echo_canceller3_config.h">
+      <Filter>源文件\webrtc_code\api</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\api_call_jitter_metrics.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\block_delay_buffer.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\block_framer.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\logging\apm_data_dumper.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\block_processor.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\block_processor_metrics.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\cascaded_biquad_filter.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\clockdrift_detector.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\comfort_noise_generator.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\decimator.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\delay_estimate.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\downsampled_render_buffer.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\echo_audibility.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\echo_path_delay_estimator.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\echo_path_variability.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\echo_remover.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\echo_remover_metrics.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\erl_estimator.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\erle_estimator.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\fft_buffer.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\fft_data.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\filter_analyzer.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\frame_blocker.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\fullband_erle_estimator.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\main_filter_update_gain.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\matched_filter.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\matched_filter_lag_aggregator.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\matrix_buffer.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\moving_average.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\render_buffer.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\render_delay_buffer.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\render_delay_controller.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\render_delay_controller_metrics.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\render_reverb_model.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\render_signal_analyzer.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\residual_echo_estimator.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\reverb_decay_estimator.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\reverb_frequency_response.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\reverb_model.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\reverb_model_estimator.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\reverb_model_fallback.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\shadow_filter_update_gain.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\signal_dependent_erle_estimator.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\stationarity_estimator.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\subband_erle_estimator.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\subtractor.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\subtractor_output.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\subtractor_output_analyzer.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\suppression_filter.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\suppression_gain.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\vector_buffer.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\vector_math.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\logging.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\race_checker.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\arraysize.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\async_invoker_inl.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\atomic_ops.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\bind.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\buffer.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\buffer_queue.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\byte_order.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\callback.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\compile_assert_c.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\constructor_magic.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\copy_on_write_buffer.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\cpu_time.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\crc32.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\critical_section.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\crypt_string.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\deprecation.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\dscp.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\event_tracer.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\fake_mdns_responder.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\flags.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\format_macros.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\function_view.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\gtest_prod_util.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\gunit_prod.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\ignore_wundef.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\keep_ref_until_done.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\location.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\mdns_responder_interface.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\memory_usage.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\message_buffer_reader.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\one_time_event.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\platform_file.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\platform_thread.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\platform_thread_types.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\protobuf_utils.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\random.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\rate_statistics.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\rate_tracker.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\ref_count.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\ref_counted_object.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\ref_counter.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\rolling_accumulator.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\sanitizer.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\sigslot_repeater.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\sigslot_tester.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\string_encode.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\string_to_number.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\string_utils.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\stringize_macros.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\swap_queue.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\template_util.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\test_base64.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\test_certificate_verifier.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\thread.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\thread_annotations.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\thread_checker.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\time_utils.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\timestamp_aligner.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\trace_event.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\type_traits.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\adaptive_fir_filter.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\aec_state.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\aec3_common.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\aec3\aec3_fft.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\aec3</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\utility\block_mean_calculator.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\utility\delay_estimator.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\utility\delay_estimator_internal.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\utility\delay_estimator_wrapper.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\utility\ooura_fft.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\utility\ooura_fft_tables_common.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\modules\audio_processing\utility\ooura_fft_tables_neon_sse2.h">
+      <Filter>源文件\webrtc_code\modules\audio_processing\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\api\audio\audio_frame.h">
+      <Filter>源文件\webrtc_code\api\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\api\audio\audio_mixer.h">
+      <Filter>源文件\webrtc_code\api\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\api\audio\echo_canceller3_config_json.h">
+      <Filter>源文件\webrtc_code\api\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\api\audio\echo_canceller3_factory.h">
+      <Filter>源文件\webrtc_code\api\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\api\audio\echo_control.h">
+      <Filter>源文件\webrtc_code\api\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\strings\audio_format_to_string.h">
+      <Filter>源文件\webrtc_code\rtc_base\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\strings\json.h">
+      <Filter>源文件\webrtc_code\rtc_base\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\strings\string_builder.h">
+      <Filter>源文件\webrtc_code\rtc_base\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\common_audio\audio_converter.h">
+      <Filter>源文件\webrtc_code\common_audio</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\common_audio\channel_buffer.h">
+      <Filter>源文件\webrtc_code\common_audio</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\common_audio\resampler\push_sinc_resampler.h">
+      <Filter>源文件\webrtc_code\common_audio\resampler</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\memory\aligned_malloc.h">
+      <Filter>源文件\webrtc_code\rtc_base\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\common_audio\resampler\sinusoidal_linear_chirp_source.h">
+      <Filter>源文件\webrtc_code\common_audio\resampler</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\system_wrappers\include\metrics.h">
+      <Filter>源文件\webrtc_code\system_warp</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\system_wrappers\include\field_trial.h">
+      <Filter>源文件\webrtc_code\system_warp</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\system_wrappers\include\cpu_features_wrapper.h">
+      <Filter>源文件\webrtc_code\system_warp</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc_code\rtc_base\zero_memory.h">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="AEC3_Sample.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="webrtc_code\rtc_base\sigslottester.h.pump">
+      <Filter>源文件\webrtc_code\rtc_base</Filter>
+    </None>
+  </ItemGroup>
+</Project>
