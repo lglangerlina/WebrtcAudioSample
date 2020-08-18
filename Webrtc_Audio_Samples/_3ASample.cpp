@@ -7,13 +7,10 @@
 
 
 using namespace std;
-
+//webrtc::AudioMixerImpl* 	_3ASample::m_apm = nullptr;
 
 _3ASample::_3ASample()
 {
-	rtc::LogMessage::LogToDebug(rtc::LoggingSeverity::LS_INFO);
-	rtc::LogMessage::SetLogToStderr(true);
-
 	webrtc::Config conig;
 	m_audioMixer = webrtc::AudioMixerImpl::Create();
 	m_apm = new rtc::RefCountedObject<webrtc::AudioProcessingImpl>(conig);
@@ -35,7 +32,8 @@ _3ASample::~_3ASample()
 int _3ASample::init()
 {
 	//log
-
+	rtc::LogMessage::LogToDebug(rtc::LoggingSeverity::LS_VERBOSE);
+	rtc::LogMessage::SetLogToStderr(true);
 
 	if (m_audioDevice == nullptr) {
 		cout << "audio device = nullptr";

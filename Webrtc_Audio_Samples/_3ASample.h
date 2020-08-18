@@ -24,6 +24,6 @@ private:
 	webrtc::AudioTransportImpl	*m_audioTransport = nullptr;
 
 	rtc::scoped_refptr<webrtc::AudioMixerImpl> m_audioMixer;
-	webrtc::AudioProcessingImpl*	m_apm;
+	webrtc::AudioProcessingImpl*	m_apm = nullptr;
 };
 

@@ -15,6 +15,7 @@
 #include "rtc_base/checks.h"
 #include "rtc_base/ref_counted_object.h"
 #include "audio/utility/audio_frame_operations.h"
+#include "rtc_base/task_queue_win.h"
 
 #include "rtc_base/logging.h"
 
@@ -397,7 +398,7 @@ rtc::scoped_refptr<AudioDeviceModule> CreateAudioDeviceWithDataObserver(
     const AudioDeviceModule::AudioLayer audio_layer,
     AudioDeviceDataObserver* observer) {
   return CreateAudioDeviceWithDataObserver(audio_layer,
-                                           &GlobalTaskQueueFactory(), observer);
+	  CreateTaskQueueWinFactory().release(), observer);
 }
 
 rtc::scoped_refptr<AudioDeviceModule> CreateAudioDeviceWithDataObserver(

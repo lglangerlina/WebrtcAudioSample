@@ -1,9 +1,11 @@
 
-#include "AEC3_Sample.h"
+#include "_3ASample.h"
 
 int main()
 {
-	AEC3_Sample *sample = new AEC3_Sample;
+	_3ASample *sample = new _3ASample;
 	sample->init();
+
+	system("pause");
 	return 0;
 }

@@ -132,6 +132,6 @@ int main(int argc, char* argv[]) {
 }  // namespace rnn_vad
 }  // namespace webrtc
 
-int main(int argc, char* argv[]) {
-  return webrtc::rnn_vad::test::main(argc, argv);
-}
+//int main(int argc, char* argv[]) {
+//  return webrtc::rnn_vad::test::main(argc, argv);
+//}
