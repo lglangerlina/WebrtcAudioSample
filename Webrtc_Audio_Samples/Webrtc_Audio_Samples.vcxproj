@@ -129,7 +129,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AudioMixHeper.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="main_testMixer.cpp" />
     <ClCompile Include="webrtc_code\api\audio\audio_frame.cc" />
     <ClCompile Include="webrtc_code\api\audio\echo_canceller3_config.cc" />
     <ClCompile Include="webrtc_code\api\audio\echo_canceller3_config_json.cc" />
@@ -389,6 +391,9 @@
     <ClCompile Include="_3ASample.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AudioDataCallBack.h" />
+    <ClInclude Include="AudioMixHeper.h" />
+    <ClInclude Include="TestFile.h" />
     <ClInclude Include="webrtc_code\api\audio\audio_frame.h" />
     <ClInclude Include="webrtc_code\api\audio\audio_mixer.h" />
     <ClInclude Include="webrtc_code\api\audio\echo_canceller3_config.h" />

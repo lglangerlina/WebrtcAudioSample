@@ -44,7 +44,7 @@ class NoiseSuppressionImpl : public NoiseSuppression {
  private:
   class Suppressor;
   rtc::CriticalSection* const crit_;
-  bool enabled_ RTC_GUARDED_BY(crit_) = false;
+  bool enabled_ RTC_GUARDED_BY(crit_) = true;
   Level level_ RTC_GUARDED_BY(crit_) = kModerate;
   size_t channels_ RTC_GUARDED_BY(crit_) = 0;
   int sample_rate_hz_ RTC_GUARDED_BY(crit_) = 0;

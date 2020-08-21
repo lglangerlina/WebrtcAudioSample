@@ -207,7 +207,7 @@ class AudioProcessingImpl : public AudioProcessing {
     bool adaptive_gain_controller_enabled_ = false;
     bool gain_controller2_enabled_ = false;
     bool pre_amplifier_enabled_ = false;
-    bool echo_controller_enabled_ = false;
+    bool echo_controller_enabled_ = true;
     bool level_estimator_enabled_ = false;
     bool voice_activity_detector_enabled_ = false;
     bool private_voice_detector_enabled_ = false;
@@ -407,7 +407,7 @@ class AudioProcessingImpl : public AudioProcessing {
     StreamConfig capture_processing_format;
     int split_rate;
     int stream_delay_ms;
-    bool echo_controller_enabled = false;
+    bool echo_controller_enabled = true;
     bool use_aec2_extended_filter = false;
     bool use_aec2_delay_agnostic = false;
     bool use_aec2_refined_adaptive_filter = false;

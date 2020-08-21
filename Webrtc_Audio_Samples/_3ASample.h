@@ -10,6 +10,7 @@
 #include "modules/audio_mixer/audio_mixer_impl.h"
 #include "modules/audio_processing/audio_processing_impl.h"
 
+class AudioMixHeper;
 class _3ASample
 {
 public:
@@ -20,10 +21,18 @@ public:
 	bool setRecordingDevice(const char deviceId[MAX_DEVICE_ID_LEN]);
 
 private:
+	void initApm();
+	int initRecordAudioDevice();
+	int initPlayoutAudioDevice();
+
+private:
 	rtc::scoped_refptr<webrtc::AudioDeviceModule> m_audioDevice = nullptr;
 	webrtc::AudioTransportImpl	*m_audioTransport = nullptr;
 
 	rtc::scoped_refptr<webrtc::AudioMixerImpl> m_audioMixer;
 	webrtc::AudioProcessingImpl*	m_apm = nullptr;
+
+	AudioMixHeper			  *m_audioSrc1 = nullptr;
+	AudioMixHeper			  *m_audioSrc2 = nullptr;
 };
 

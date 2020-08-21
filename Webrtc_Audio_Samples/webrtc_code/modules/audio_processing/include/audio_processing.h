@@ -253,11 +253,11 @@ class AudioProcessing : public rtc::RefCountInterface {
     } pre_amplifier;
 
     struct HighPassFilter {
-      bool enabled = false;
+      bool enabled = true;
     } high_pass_filter;
 
     struct EchoCanceller {
-      bool enabled = false;
+      bool enabled = true;
       bool mobile_mode = false;
       // Recommended not to use. Will be removed in the future.
       // APM components are not fine-tuned for legacy suppression levels.
@@ -268,14 +268,14 @@ class AudioProcessing : public rtc::RefCountInterface {
 
     // Enables background noise suppression.
     struct NoiseSuppression {
-      bool enabled = false;
+      bool enabled = true;
       enum Level { kLow, kModerate, kHigh, kVeryHigh };
       Level level = kModerate;
     } noise_suppression;
 
     // Enables reporting of |has_voice| in webrtc::AudioProcessingStats.
     struct VoiceDetection {
-      bool enabled = false;
+      bool enabled = true;
     } voice_detection;
 
     // Enables automatic gain control (AGC) functionality.

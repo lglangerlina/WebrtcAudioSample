@@ -71,7 +71,7 @@ class GainControlImpl : public GainControl {
 
   std::unique_ptr<ApmDataDumper> data_dumper_;
 
-  bool enabled_ = false;
+  bool enabled_ = true;
 
   Mode mode_;
   int minimum_capture_level_;
