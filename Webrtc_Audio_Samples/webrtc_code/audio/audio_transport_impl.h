@@ -75,8 +75,8 @@ class AudioTransportImpl : public AudioTransport {
   // Capture side.
   rtc::CriticalSection capture_lock_;
   //std::vector<AudioSendStream*> sending_streams_ RTC_GUARDED_BY(capture_lock_);
-  int send_sample_rate_hz_ RTC_GUARDED_BY(capture_lock_) = 8000;
-  size_t send_num_channels_ RTC_GUARDED_BY(capture_lock_) = 1;
+  int send_sample_rate_hz_ RTC_GUARDED_BY(capture_lock_) = 48000;
+  size_t send_num_channels_ RTC_GUARDED_BY(capture_lock_) = 2;
   bool typing_noise_detected_ RTC_GUARDED_BY(capture_lock_) = false;
   bool swap_stereo_channels_ RTC_GUARDED_BY(capture_lock_) = false;
   PushResampler<int16_t> capture_resampler_;

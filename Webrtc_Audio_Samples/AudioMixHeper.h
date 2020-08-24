@@ -1,7 +1,7 @@
 #pragma once
 
 #include "modules/audio_mixer/audio_mixer_impl.h"
-#define SAMPLE_RATE 16000
+#define SAMPLE_RATE 48000
 #define CHANNELS	2
 #define BIT			16
 

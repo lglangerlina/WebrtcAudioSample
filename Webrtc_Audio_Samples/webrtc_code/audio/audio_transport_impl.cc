@@ -13,6 +13,7 @@
 #include <algorithm>
 #include <memory>
 #include <utility>
+#include <stdio.h>
 
 #include "audio/remix_resample.h"
 #include "audio/utility/audio_frame_operations.h"
@@ -130,6 +131,13 @@ int32_t AudioTransportImpl::RecordedDataIsAvailable(
   ProcessCaptureFrame(audio_delay_milliseconds, key_pressed,
                       swap_stereo_channels, audio_processing_,
                       audio_frame.get());
+
+  static FILE *captureFile = fopen("record_after3A.pcm", "wb");
+  if (captureFile) {
+	  fwrite(audio_frame->data(), bytes_per_sample,
+		  audio_frame->samples_per_channel_, captureFile);
+  }
+
 
   // Typing detection (utilizes the APM/VAD decision). We let the VAD determine
   // if we're using this feature or not.

@@ -12,9 +12,9 @@ AudioMixHeper::AudioMixHeper(int ssrc, int sample, const std::string &fileName)
 	, m_sample(sample)
 {
 	errno_t error =  fopen_s(&m_file, fileName.c_str(), "rb");
-	if (m_file) {
-		fseek(m_file, 44, SEEK_SET);
-	}
+	//if (m_file) {
+	//	fseek(m_file, 44, SEEK_SET);
+	//}
 }
 
 AudioMixHeper::~AudioMixHeper()
@@ -29,7 +29,7 @@ webrtc::AudioMixer::Source::AudioFrameInfo AudioMixHeper::GetAudioFrameWithInfo(
 {
 	size_t readSize = 0;
 	if (m_file) {
-		readSize = fread(s_buf, 160 * 2, 1, m_file);
+		readSize = fread(s_buf, 480 * 2, 2, m_file);
 		/*if (readSize != 1) {
 			std::cout << "maybe read all file" << std::endl;
 			return webrtc::AudioMixer::Source::AudioFrameInfo::kError;
@@ -43,9 +43,9 @@ webrtc::AudioMixer::Source::AudioFrameInfo AudioMixHeper::GetAudioFrameWithInfo(
 	std::cout << "this thread id=";
 	thread_id._To_text(std::cout);
 	std::cout << std::endl;
-	audio_frame->UpdateFrame(0, s_buf, 160, SAMPLE_RATE, 
+	audio_frame->UpdateFrame(0, s_buf, 480, SAMPLE_RATE, 
 		webrtc::AudioFrame::SpeechType::kNormalSpeech, 
-		webrtc::AudioFrame::VADActivity::kVadUnknown, 1);
+		webrtc::AudioFrame::VADActivity::kVadUnknown, 2);
 
 	printf(",ssrc %d get audio frame, muted: %d, n %d, s %d\n", m_ssrc, 
 		int(audio_frame->muted()), audio_frame->num_channels_, audio_frame->sample_rate_hz_);

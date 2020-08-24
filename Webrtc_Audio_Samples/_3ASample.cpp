@@ -4,6 +4,7 @@
 #include "rtc_base/ref_counted_object.h"
 #include "AudioMixHeper.h"
 #include "AudioDataCallBack.h"
+#include "Utils.h"
 
 #include <iostream>
 
@@ -89,10 +90,17 @@ void _3ASample::initApm()
 	audioConfig.level_estimation.enabled = false;
 
 
+	std::string exePath;
+	Utils::GetProjectExecuteDir(exePath);
+	std::string stdSrc0 = exePath + "res\\audio_file\\pcm\\pcm_48k_2c_00.pcm";
+	std::string stdSrc1 = exePath + "res\\audio_file\\pcm\\pcm_48k_2c_01.pcm";
+	std::string stdSrc2 = exePath + "res\\audio_file\\pcm\\pcm_48k_2c_02.pcm";
+	std::string stdSrc3 = exePath + "res\\audio_file\\pcm\\pcm_48k_2c_03.pcm";
+
 	webrtc::Config conig;
 	m_audioMixer = webrtc::AudioMixerImpl::Create();
-	m_audioSrc1 = new AudioMixHeper(1, SAMPLE_RATE, "D:\\Down\\audio\\wav\\16k_1channel\\audio_16k_1_00.wav");
-	m_audioSrc2 = new AudioMixHeper(2, SAMPLE_RATE, "D:\\Down\\audio\\wav\\16k_1channel\\audio_16k_1_01.wav");
+	m_audioSrc1 = new AudioMixHeper(1, SAMPLE_RATE, stdSrc0);
+	m_audioSrc2 = new AudioMixHeper(2, SAMPLE_RATE, stdSrc1);
 
 	m_audioMixer.get()->AddSource(m_audioSrc1);
 	m_audioMixer.get()->AddSource(m_audioSrc2);
