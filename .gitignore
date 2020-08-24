@@ -2,3 +2,6 @@
 Debug/*
 Webrtc_Audio_Samples/Debug/*
 .vs/*
+*.obj
+*.tlog
+*.log

@@ -106,11 +106,16 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\webrtc_code;.\webrtc_code\third_party\abseil-cpp;webrtc_code\rtc_base\strings;webrtc_code\third_party\jsoncpp\source\include;.\webrtc_code\third_party\rnnoise\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WEBRTC_WIN;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;NOMINMAX;WEBRTC_INCLUDE_INTERNAL_AUDIO_DEVICE;WEBRTC_NS_FLOAT;_USE_MATH_DEFINES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>winmm.lib;absl_str_format_internal.lib;absl_strings.lib;absl_strings_internal.lib;absl_base.lib;absl_dynamic_annotations.lib;absl_malloc_internal.lib;absl_scoped_set_env.lib;absl_spinlock_wait.lib;absl_throw_delegate.lib;absl_bad_any_cast_impl.lib;absl_bad_optional_access.lib;absl_bad_variant_access.lib;msdmo.lib;Strmiids.lib;wmcodecdspuuid.lib;dmoguids.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.\webrtc_code\third_party\abseil-cpp\absl\strings\Release;.\webrtc_code\third_party\abseil-cpp\absl\base\Release;.\webrtc_code\third_party\abseil-cpp\absl\types\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
