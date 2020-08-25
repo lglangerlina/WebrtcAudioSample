@@ -31,7 +31,7 @@ public:
 		const uint32_t samples_per_sec) override 
 	{
 		if (m_captureFile) {
-			fwrite(audio_samples, num_samples, bytes_per_sample, m_captureFile);
+			fwrite(audio_samples, bytes_per_sample, num_samples, m_captureFile);
 		}
 	}
 
@@ -42,7 +42,7 @@ public:
 		const uint32_t samples_per_sec) override 
 	{
 		if (m_renderFile) {
-			fwrite(audio_samples, num_samples, bytes_per_sample, m_renderFile);
+			fwrite(audio_samples, bytes_per_sample,num_samples , m_renderFile);
 		}
 	}
 };
