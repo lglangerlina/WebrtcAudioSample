@@ -16,8 +16,6 @@ _3ASample::_3ASample()
 	//log
 	//rtc::LogMessage::LogToDebug(rtc::LoggingSeverity::LS_VERBOSE);
 	//rtc::LogMessage::SetLogToStderr(true);
-
-	
 }
 
 _3ASample::~_3ASample()
@@ -99,8 +97,8 @@ void _3ASample::initApm()
 
 	webrtc::Config conig;
 	m_audioMixer = webrtc::AudioMixerImpl::Create();
-	m_audioSrc1 = new AudioMixHeper(1, SAMPLE_RATE, stdSrc0);
-	m_audioSrc2 = new AudioMixHeper(2, SAMPLE_RATE, stdSrc1);
+	m_audioSrc1 = new AudioMixHeper(1, 48000, 2, stdSrc0);
+	m_audioSrc2 = new AudioMixHeper(2, 48000, 2, stdSrc1);
 
 	m_audioMixer.get()->AddSource(m_audioSrc1);
 	m_audioMixer.get()->AddSource(m_audioSrc2);
@@ -149,8 +147,8 @@ int _3ASample::initRecordAudioDevice()
 		return -1;
 	}
 
-	AudioDataCallBack *audioDataCallback = new AudioDataCallBack;
 	m_audioDevice->RegisterAudioCallback(m_audioTransport);
+	AudioDataCallBack *audioDataCallback = new AudioDataCallBack;
 	((webrtc::ADMWrapper*)m_audioDevice.get())->RegisterObserver(audioDataCallback);
 	return 0;
 }

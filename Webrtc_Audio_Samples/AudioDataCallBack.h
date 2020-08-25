@@ -30,7 +30,6 @@ public:
 		const size_t num_channels,
 		const uint32_t samples_per_sec) override 
 	{
-		std::cout << "capture audio data arrived" << std::endl;
 		if (m_captureFile) {
 			fwrite(audio_samples, num_samples, bytes_per_sample, m_captureFile);
 		}

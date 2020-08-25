@@ -1,14 +1,11 @@
 #pragma once
 
 #include "modules/audio_mixer/audio_mixer_impl.h"
-#define SAMPLE_RATE 48000
-#define CHANNELS	2
-#define BIT			16
 
 class AudioMixHeper : public webrtc::AudioMixer::Source
 {
 public:
-	AudioMixHeper(int ssrc, int sample, const std::string &fileName);
+	AudioMixHeper(int ssrc, int sample, int channel, const std::string &fileName);
 	~AudioMixHeper();
 
 protected:
@@ -23,6 +20,7 @@ private:
 	int			m_ssrc;
 	std::string m_fileName;
 	int			m_sample;
+	int			m_channel;
 	FILE		*m_file = nullptr;
 	int			m_samplePerChannel;
 };

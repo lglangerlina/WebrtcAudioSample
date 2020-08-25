@@ -933,9 +933,6 @@
     <ClCompile Include="AudioMixHeper.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="main_testMixer.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="webrtc_code\modules\audio_processing\aec3\echo_canceller3.h">
@@ -1750,9 +1747,6 @@
     </ClInclude>
     <ClInclude Include="AudioMixHeper.h">
       <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="TestFile.h">
-      <Filter>源文件</Filter>
     </ClInclude>
     <ClInclude Include="AudioDataCallBack.h">
       <Filter>头文件</Filter>
